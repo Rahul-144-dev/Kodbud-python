@@ -28,13 +28,13 @@ def play_round(low=1, high=100):
         attempts += 1
 
         if guess == secret:
-            print(f"\n✅ Correct! The number was {secret}.")
+            print(f"\nCorrect! The number was {secret}.")
             print(f"You got it in {attempts} attempt(s).")
             return attempts
         elif guess > secret:
-            print("📉 Too high. Try again.")
+            print("Too high. Try again.")
         else:
-            print("📈 Too low. Try again.")
+            print("Too low. Try again.")
 
 
 def main():

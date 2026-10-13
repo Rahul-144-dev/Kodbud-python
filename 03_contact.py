@@ -34,7 +34,7 @@ def add_contact():
     email = input("Email: ").strip()
 
     contacts.append({"name": name, "phone": phone, "email": email})
-    print(f"✅ Added '{name}'.")
+    print(f"Added '{name}'.")
 
 
 def view_contacts():
@@ -85,7 +85,7 @@ def delete_contact():
             confirm = input(f"Delete '{c['name']}'? (y/n): ").lower().strip()
             if confirm == "y":
                 contacts.pop(i)
-                print(f"🗑️  Deleted '{c['name']}'.")
+                print(f"Deleted '{c['name']}'.")
             else:
                 print("Cancelled.")
             return

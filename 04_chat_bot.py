@@ -71,7 +71,7 @@ def main():
             continue
 
         if user_input in EXIT_WORDS:
-            print("Python Chatbot: Goodbye! 👋")
+            print("Python Chatbot: Goodbye!")
             break
 
         if user_input == "help":
